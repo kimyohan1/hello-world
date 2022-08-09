@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS text속성</title>
+    <style>
+        h1{margin: 30px;}
+        /* text-decoration : 글자 줄지정 속성 */
+
+        /* 1. underline : 밑줄처리 */
+        .text01{ text-decoration: underline; }
+        /* 2. line-through : 가운데줄처리 */
+        .text02{ text-decoration: line-through; }
+        /* 3. overline : 윗줄처리 */
+        .text03{ text-decoration: overline; }
+        /* 4. none : 줄 제거 */
+        a{ text-decoration: none;}
+        /* 줄 색상과 스타일 변경 */
+        .text04{
+            text-decoration-line: underline;
+            text-decoration-color: red;
+            text-decoration: dashed;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text01">김요한</h1>
+    <h1 class="text02">김요한</h1>
+    <h1 class="text03">김요한</h1>
+    <h1><a href="#">link test</a></h1>
+    <h1 class="text04">김요한</h1>
+</body>
+</html>
